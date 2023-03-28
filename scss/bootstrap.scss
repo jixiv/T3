@@ -1,0 +1,34 @@
+/******* Customized Bootstrap ********/
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;300&display=swap');
+*
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+}
+
+$primary: #df54b5;
+$light: #FFF5F3;
+$dark: #103741;
+
+$font-family-base: 'Prompt', sans-serif;
+
+$headings-font-family: 'Prompt', sans-serif;
+
+$body-bg: $light;
+
+$body-color: #74787C;
+
+$headings-color: $dark;
+
+$enable-responsive-font-sizes: true;
+
+$border-radius: 10px;
+
+$link-decoration: none;
+
+$enable-negative-margins: true;
+
+@import "bootstrap/scss/bootstrap";
